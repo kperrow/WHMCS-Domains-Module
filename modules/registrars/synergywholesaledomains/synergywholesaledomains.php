@@ -10,10 +10,10 @@
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Carbon\Carbon;
 
-define('API_ENDPOINT', 'https://{{API}}');
-define('WHOIS_URL', 'https://{{FRONTEND}}/home/whmcs-whois-json');
-define('WHATS_MY_IP_URL', 'https://{{FRONTEND}}/ip');
-define('SW_MODULE_VERSION', '{{VERSION}}');
+define('API_ENDPOINT', 'https://api.synergywholesale.com');
+define('WHOIS_URL', 'https://manage.synergywholesale.com/home/whmcs-whois-json');
+define('WHATS_MY_IP_URL', 'https://manage.synergywholesale.com/ip');
+define('SW_MODULE_VERSION', '2.3.0');
 define('SW_MODULE_NAME', 'synergywholesaledomains');
 
 function synergywholesaledomains_webRequest($url, $method = 'GET', array $params = [])
